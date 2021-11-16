@@ -24,7 +24,7 @@ func readConfig() {
 	if err != nil {
 		fmt.Println("Config file not found...")
 	} else {
-		viper.SetEnvPrefix("product-api")
+		viper.SetEnvPrefix("login-crud-user")
 		viper.AllowEmptyEnv(true)
 		viper.AutomaticEnv()
 	}
